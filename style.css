@@ -1,0 +1,302 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,600;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,100;0,200;0,300;0,500;0,600;1,100;1,200;1,400;1,500&display=swap');
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden scroll;
+  font-family: 'Barlow', sans-serif;
+}
+ *{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+h1,h2,h3,h4{
+  font-family:'Fraunces'
+  
+  
+}
+
+.img{
+   
+  display:flex;
+  justify-content:center;
+ }
+ .w-50{
+     width: 50%;
+   height: 100%;
+ }
+
+.w-50 img{
+  width: 100%;
+  height: 100%;
+}
+ .content{
+     display:flex;
+   height: 500px;
+     
+ }
+ .pd-text{
+     padding: 90px;
+ }
+ .txt{
+     text-align: center;
+     margin-bottom: 35px;
+
+ }
+
+ .title{
+     margin-bottom: 30px;
+ }
+ .lien{
+     text-decoration: underline yellow;
+     color:black;
+     font-weight: bold;
+     
+ }
+ .img1{
+     background-image: url("images/image-graphic-design\(1\).jpg");
+     background-size: cover;
+     height: 500px;
+ }
+ .img2{
+     background-image: url("images/image-photography.jpg");
+     background-size: cover;
+     height: 500px;
+ }
+ .img1,.img2{
+     display: flex;
+     justify-content: center;
+     align-items: flex-end;
+     padding-bottom: 20px;
+ }
+ .cont{
+     width: 50%;
+ }
+.cont h3{
+    margin-bottom: 20px;
+}
+.tem{
+ padding-top:100px;
+   justify-content: center;
+  text-align:center;
+  color:#a9a8ab ;
+}
+
+.client{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 20px;
+}
+   
+.cl1{
+  margin-right:200px;
+  margin-left:150px
+}
+.cl2{
+  margin-right:310px;
+  
+}
+.ph1{
+  border-radius:50%;
+  width:70px;
+height:70px;
+  margin-bottom:50px;
+}
+
+   .par{
+     text-align: center;
+   }
+
+.name{
+  justify-content: center;
+  text-align:center;
+  margin-bottom:20px;
+  padding-top:70px;
+}
+.post{
+  text-align:center;
+  justify-content:center;
+  font-size:xsmall;
+  font-weight: lighter;
+}
+
+.produits{
+  display:flex;
+  
+}
+.imgprod{
+   width:100%;
+height:100%;
+}
+.footer{
+  background-color:#85dac5;
+  
+  
+  
+}
+.footer>div{
+  width:50%;
+  margin:auto;
+  text-align:center;
+  
+}
+.liste{
+  display:flex;
+  padding-bottom:30px;
+  
+  
+  
+  
+}
+.img{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.we{
+  margin-bottom: 50px;
+  font-weight:bold;
+}
+.list{
+  margin:10px;
+  
+ margin-left: auto ;
+ margin-right:auto ;
+}
+.logo{
+  display: flex;
+  justify-content: center;
+  
+  flex-direction: column;
+  align-items: center;
+  margin-top:150px;
+}
+.media{
+  display:flex;
+  width:50px;
+ margin-left: auto ;
+ margin-right:auto ;
+  padding:5px;
+  margin-right:350px;
+}
+.mediaa{
+   text-align: center;
+ 
+    padding-bottom:20px;
+  padding:10px;
+}
+
+
+
+.header{
+  background-color:#3ebfff;
+  padding:20px;
+    background-image: url("images/image-header\(1\).jpg"); 
+    background-position: center;
+    height: 40rem;
+    
+    background-size: cover;
+}
+.nous{
+  display:flex;
+  justify-content: space-between;
+}
+.we{
+  color:white;
+  font-size:40px;
+}
+.sunn{
+  height:auto;
+  width:150px;
+  }
+
+.contact{
+  color:black;
+  background-color: white;
+  
+}  
+.apropos{
+  color:white;
+}
+span{
+  margin:0 20px;
+}
+.contact{
+  
+   border-radius: 25px;
+  padding:3px;
+}
+.us{
+  color:white;
+  font-size:15px;
+}
+.clients{
+  display:flex;
+   width:50%;
+ margin-left: auto ;
+ margin-right:auto ;
+}
+.les_clients{
+  margin:0 100px;
+}
+.sun{
+  padding:15px;
+  font-size:30px;
+  font-weight:bold;
+  color:#1d7967 ;
+}
+.photography{
+  padding:30px;
+  font-weight:bold;
+}
+.graphic{
+  color:#1d5a4e ;
+}
+.photography2{
+  color:#24516c ;
+}
+
+
+ @media screen and (max-width:720px){
+  
+    .img{
+      position: relative ;
+width: 100% ;
+margin: auto ;
+    }
+
+  .content {
+    flex-direction:column;
+  }
+  .w-50{
+     width: 100%;
+ }
+   .us{
+     flex-direction:column;
+     display:flex;
+   }
+   .clients{
+   display:flex;
+   width:50%;
+ margin-left: auto ;
+ margin-right:auto ;
+}
+  
+   
+  
+}
+
+
+  
+  
+
+
+
+  
+  
+  
